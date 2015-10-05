@@ -162,7 +162,6 @@
     <object>objects\object15</object>
     <object>objects\Server_obj</object>
     <object>objects\TD_btn_obj</object>
-    <object>objects\testConect</object>
     <object>objects\zone_interdite_obj</object>
   </objects>
   <timelines name="timelines">
@@ -172,6 +171,7 @@
     <timeline>timelines\timeline0</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\room2</room>
     <rooms name="TD">
       <room>rooms\field1</room>
     </rooms>
@@ -183,7 +183,6 @@
       <room>rooms\room1</room>
       <room>rooms\room2_new</room>
     </rooms>
-    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
