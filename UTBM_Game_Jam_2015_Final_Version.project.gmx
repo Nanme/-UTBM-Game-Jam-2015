@@ -4,10 +4,138 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
-  <paths name="paths"/>
+  <sounds name="sound">
+    <sounds name="SHMUP">
+      <sound>sound\blast</sound>
+      <sound>sound\laser</sound>
+    </sounds>
+  </sounds>
+  <sprites name="sprites">
+    <sprites name="TD">
+      <sprite>sprites\bullet</sprite>
+      <sprite>sprites\coin</sprite>
+      <sprite>sprites\coin_litlle_spr</sprite>
+      <sprite>sprites\tower1_transp</sprite>
+      <sprite>sprites\monster</sprite>
+      <sprite>sprites\base</sprite>
+      <sprite>sprites\tower1</sprite>
+      <sprite>sprites\sniper</sprite>
+      <sprite>sprites\tower_sniper_transp_spr</sprite>
+      <sprite>sprites\tower_sniper_btn_spr</sprite>
+      <sprite>sprites\spr_black</sprite>
+      <sprite>sprites\tower_mine_btn_spr</sprite>
+      <sprite>sprites\tower_mine_transp</sprite>
+      <sprite>sprites\tower_mine</sprite>
+      <sprite>sprites\spr_tower1_btn</sprite>
+      <sprite>sprites\rouge_spr</sprite>
+    </sprites>
+    <sprites name="SHMUP">
+      <sprite>sprites\blue_ennemy</sprite>
+      <sprite>sprites\boss</sprite>
+      <sprite>sprites\ammo</sprite>
+      <sprite>sprites\green_ennemy</sprite>
+      <sprite>sprites\explosion1</sprite>
+      <sprite>sprites\red_ennemy</sprite>
+      <sprite>sprites\spacecraft</sprite>
+      <sprite>sprites\sprite11_planet03_Small</sprite>
+      <sprite>sprites\sprite21_planet01_Small</sprite>
+      <sprite>sprites\sprite8_planet02_Small</sprite>
+      <sprite>sprites\sprite17_planet05_Small</sprite>
+      <sprite>sprites\sprite14_planet04_Small</sprite>
+    </sprites>
+    <sprite>sprites\blue_</sprite>
+    <sprite>sprites\ennemy</sprite>
+    <sprite>sprites\schmup_btn</sprite>
+    <sprite>sprites\TD_btn</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <backgrounds name="TD">
+      <background>background\greenField</background>
+      <background>background\chemin</background>
+      <background>background\grass2</background>
+    </backgrounds>
+    <backgrounds name="SHMUP">
+      <background>background\Space</background>
+      <background>background\background0</background>
+    </backgrounds>
+  </backgrounds>
+  <paths name="paths">
+    <paths name="TD">
+      <path>paths\path3</path>
+      <path>paths\path2</path>
+      <path>paths\path1</path>
+    </paths>
+    <paths name="SHMUP">
+      <path>paths\boss_path</path>
+    </paths>
+  </paths>
+  <fonts name="fonts">
+    <font>fonts\thune_text</font>
+  </fonts>
+  <objects name="objects">
+    <objects name="TD">
+      <object>objects\MilitaryBase</object>
+      <object>objects\Monster_obj</object>
+      <object>objects\Monster2_obj</object>
+      <object>objects\tower</object>
+      <object>objects\Monster3_obj</object>
+      <object>objects\tower1_transp_obj</object>
+      <object>objects\Sniper_obj</object>
+      <object>objects\Tower_mine_button_obj</object>
+      <object>objects\tower_mine_transp_obj</object>
+      <object>objects\Tower_mine_obj</object>
+      <object>objects\tower1_obj</object>
+      <object>objects\tower1_btn_obj</object>
+      <object>objects\tower_sniper_transp_obj</object>
+      <object>objects\tower_sniper_btn_obj</object>
+      <object>objects\Monster1_obj</object>
+      <object>objects\coin_obj</object>
+      <object>objects\Bullet_obj</object>
+    </objects>
+    <objects name="SHMUP">
+      <object>objects\global_var</object>
+      <object>objects\obj_ammo</object>
+      <object>objects\obj_b_ammo</object>
+      <object>objects\obj_ennemy</object>
+      <object>objects\obj_planet02</object>
+      <object>objects\obj_explosion1</object>
+      <object>objects\obj_red_ennemy</object>
+      <object>objects\obj_player</object>
+      <object>objects\obj_green_ennemy</object>
+      <object>objects\obj_planet04</object>
+      <object>objects\obj_gb_ammo</object>
+      <object>objects\obj_planet05</object>
+      <object>objects\object41</object>
+      <object>objects\obj_planet03</object>
+      <object>objects\obj_explosion2</object>
+      <object>objects\obj_blue_ennemy</object>
+      <object>objects\obj__player_ammo</object>
+    </objects>
+    <object>objects\black_obj</object>
+    <object>objects\chmump_btn_obj</object>
+    <object>objects\Client_obj</object>
+    <object>objects\controler</object>
+    <object>objects\object15</object>
+    <object>objects\Server_obj</object>
+    <object>objects\TD_btn_obj</object>
+    <object>objects\testConect</object>
+    <object>objects\zone_interdite_obj</object>
+  </objects>
+  <timelines name="timelines">
+    <timelines name="SHMUP">
+      <timeline>timelines\ennemy_timeline</timeline>
+    </timelines>
+    <timeline>timelines\timeline0</timeline>
+  </timelines>
+  <rooms name="rooms">
+    <rooms name="TD">
+      <room>rooms\field1</room>
+    </rooms>
+    <rooms name="SHMUP">
+      <room>rooms\level</room>
+    </rooms>
+    <room>rooms\room2</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
