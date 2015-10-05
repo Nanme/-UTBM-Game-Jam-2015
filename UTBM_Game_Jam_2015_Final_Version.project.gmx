@@ -9,6 +9,26 @@
       <sound>sound\blast</sound>
       <sound>sound\laser</sound>
     </sounds>
+    <sounds name="CINEMATIC">
+      <sound>sound\dialogue_wololo_skwalala</sound>
+      <sound>sound\intro1</sound>
+      <sound>sound\intro2</sound>
+      <sound>sound\intro3</sound>
+      <sound>sound\intro4</sound>
+      <sound>sound\intro5</sound>
+      <sound>sound\sound1</sound>
+      <sound>sound\sound3</sound>
+      <sound>sound\sound2</sound>
+      <sound>sound\sound4</sound>
+      <sound>sound\sound5</sound>
+      <sound>sound\sound8</sound>
+      <sound>sound\sound10_AdhesiveWombat - Symphony Of A Forgotten Sprite</sound>
+      <sound>sound\sound11_Airwolf 2 Theme Remasterisé</sound>
+      <sound>sound\sound12_AYBABTU</sound>
+      <sound>sound\sound13_Fields_of_Freight</sound>
+      <sound>sound\sound14_Morano - Parodie de Kendji - Gitano par GANESH2</sound>
+      <sound>sound\wololo_debut</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="TD">
@@ -43,6 +63,18 @@
       <sprite>sprites\sprite17_planet05_Small</sprite>
       <sprite>sprites\sprite14_planet04_Small</sprite>
     </sprites>
+    <sprites name="CINEMATIC">
+      <sprite>sprites\sprite2</sprite>
+      <sprite>sprites\planet</sprite>
+      <sprite>sprites\sprite8</sprite>
+      <sprite>sprites\trucInvisible</sprite>
+      <sprite>sprites\wololo</sprite>
+      <sprite>sprites\intro</sprite>
+      <sprite>sprites\sprite7</sprite>
+      <sprite>sprites\sprite5</sprite>
+      <sprite>sprites\sprite6</sprite>
+      <sprite>sprites\sprite4</sprite>
+    </sprites>
     <sprite>sprites\blue_</sprite>
     <sprite>sprites\ennemy</sprite>
     <sprite>sprites\schmup_btn</sprite>
@@ -57,6 +89,9 @@
     <backgrounds name="SHMUP">
       <background>background\Space</background>
       <background>background\background0</background>
+    </backgrounds>
+    <backgrounds name="CINEMATIC">
+      <background>background\background1</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths">
@@ -111,6 +146,15 @@
       <object>objects\obj_blue_ennemy</object>
       <object>objects\obj__player_ammo</object>
     </objects>
+    <objects name="CINEMATIC">
+      <object>objects\panetBleu</object>
+      <object>objects\_object_4</object>
+      <object>objects\trucInvisibleObj</object>
+      <object>objects\intro_obj</object>
+      <object>objects\wololo_obj</object>
+      <object>objects\planet_obj</object>
+      <object>objects\object5</object>
+    </objects>
     <object>objects\black_obj</object>
     <object>objects\chmump_btn_obj</object>
     <object>objects\Client_obj</object>
@@ -133,6 +177,11 @@
     </rooms>
     <rooms name="SHMUP">
       <room>rooms\level</room>
+    </rooms>
+    <rooms name="CINEMATIC">
+      <room>rooms\room0</room>
+      <room>rooms\room1</room>
+      <room>rooms\room2_new</room>
     </rooms>
     <room>rooms\room2</room>
   </rooms>
