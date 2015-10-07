@@ -185,7 +185,7 @@
         <exetype>1</exetype>
         <functionname>action_move_to</functionname>
         <codestring></codestring>
-        <whoName>&lt;undefined&gt;</whoName>
+        <whoName>tower1_transp_obj</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -265,7 +265,7 @@
         <exetype>1</exetype>
         <functionname>action_move_to</functionname>
         <codestring></codestring>
-        <whoName>&lt;undefined&gt;</whoName>
+        <whoName>tower_mine_transp_obj</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -345,7 +345,7 @@
         <exetype>1</exetype>
         <functionname>action_move_to</functionname>
         <codestring></codestring>
-        <whoName>&lt;undefined&gt;</whoName>
+        <whoName>tower_sniper_transp_obj</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -452,34 +452,6 @@
           <argument>
             <kind>0</kind>
             <string>710</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>613</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_draw_variable</functionname>
-        <codestring></codestring>
-        <whoName>&lt;undefined&gt;</whoName>
-        <relative>-1</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>price</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>tower1_btn_obj.sprite_width + 35</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>tower1_btn_obj.sprite_height/4 +5</string>
           </argument>
         </arguments>
       </action>

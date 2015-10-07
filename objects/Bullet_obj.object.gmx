@@ -58,7 +58,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="black_obj">
+    <event eventtype="4" ename="Monster_obj">
       <action>
         <libid>1</libid>
         <id>203</id>
