@@ -33,6 +33,7 @@
   <sprites name="sprites">
     <sprites name="TD">
       <sprite>sprites\bullet</sprite>
+      <sprite>sprites\bullet_ice_spr</sprite>
       <sprite>sprites\coin</sprite>
       <sprite>sprites\coin_litlle_spr</sprite>
       <sprite>sprites\tower1_transp</sprite>
@@ -48,6 +49,10 @@
       <sprite>sprites\tower_mine</sprite>
       <sprite>sprites\spr_tower1_btn</sprite>
       <sprite>sprites\rouge_spr</sprite>
+      <sprite>sprites\ice_tower_spr</sprite>
+      <sprite>sprites\ice_tower_btn_spr</sprite>
+      <sprite>sprites\ice_tower_transp</sprite>
+      <sprite>sprites\solo_btn_spr</sprite>
     </sprites>
     <sprites name="SHMUP">
       <sprite>sprites\blue_ennemy</sprite>
@@ -110,6 +115,7 @@
   <objects name="objects">
     <objects name="TD">
       <object>objects\MilitaryBase</object>
+      <object>objects\Tower_ice_obj</object>
       <object>objects\controler</object>
       <object>objects\Monster_obj</object>
       <object>objects\Monster2_obj</object>
@@ -127,6 +133,11 @@
       <object>objects\Monster1_obj</object>
       <object>objects\coin_obj</object>
       <object>objects\Bullet_obj</object>
+      <object>objects\ice_tower_btn_obj</object>
+      <object>objects\ice_tower_transp_obj</object>
+      <object>objects\Bullet_ice_obj</object>
+      <object>objects\solo_btn_obj</object>
+      <object>objects\reach_base_monster_counter_obj</object>
     </objects>
     <objects name="SHMUP">
       <object>objects\global_var</object>

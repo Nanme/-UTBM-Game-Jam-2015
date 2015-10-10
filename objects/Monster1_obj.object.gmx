@@ -76,7 +76,7 @@ self.image_speed = 0.3;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>300</string>
+            <string>400</string>
           </argument>
         </arguments>
       </action>
