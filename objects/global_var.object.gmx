@@ -124,7 +124,7 @@ var client = 0;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>random(100)+500</string>
+            <string>random(100) + 200</string>
           </argument>
         </arguments>
       </action>
@@ -796,7 +796,7 @@ var client = 0;
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>object41</object>
+            <object>obj_boss</object>
           </argument>
           <argument>
             <kind>0</kind>

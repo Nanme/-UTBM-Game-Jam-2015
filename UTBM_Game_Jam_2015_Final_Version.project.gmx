@@ -107,6 +107,8 @@
     </paths>
     <paths name="SHMUP">
       <path>paths\boss_path</path>
+      <path>paths\boss_path2</path>
+      <path>paths\boss_path3</path>
     </paths>
   </paths>
   <fonts name="fonts">
@@ -152,11 +154,12 @@
       <object>objects\obj_planet04</object>
       <object>objects\obj_gb_ammo</object>
       <object>objects\obj_planet05</object>
-      <object>objects\object41</object>
+      <object>objects\obj_boss</object>
       <object>objects\obj_planet03</object>
       <object>objects\obj_explosion2</object>
       <object>objects\obj_blue_ennemy</object>
       <object>objects\obj__player_ammo</object>
+      <object>objects\obj_generic_ennemy</object>
     </objects>
     <objects name="CINEMATIC">
       <object>objects\panetBleu</object>
