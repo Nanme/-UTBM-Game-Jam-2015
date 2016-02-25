@@ -192,11 +192,9 @@
     <rooms name="SHMUP">
       <room>rooms\level</room>
     </rooms>
-    <rooms name="CINEMATIC">
-      <room>rooms\room0</room>
-      <room>rooms\room1</room>
-      <room>rooms\room2_new</room>
-    </rooms>
+    <room>rooms\room0</room>
+    <room>rooms\room1</room>
+    <room>rooms\room2_new</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

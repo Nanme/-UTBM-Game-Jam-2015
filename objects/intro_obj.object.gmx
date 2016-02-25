@@ -72,7 +72,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>intro1</sound>
+            <sound>-1</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -96,11 +96,11 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sound13_Fields_of_Freight</sound>
+            <sound>-1</sound>
           </argument>
           <argument>
             <kind>3</kind>
-            <string>1</string>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -192,7 +192,7 @@ if(image_index &lt; 4)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>intro1</sound>
+            <sound>-100</sound>
           </argument>
         </arguments>
       </action>
@@ -212,7 +212,7 @@ if(image_index &lt; 4)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>intro2</sound>
+            <sound>-1</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -292,7 +292,7 @@ if(image_index &lt; 4)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>intro2</sound>
+            <sound>-100</sound>
           </argument>
         </arguments>
       </action>
@@ -312,7 +312,7 @@ if(image_index &lt; 4)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>intro3</sound>
+            <sound>-1</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -392,7 +392,7 @@ if(image_index &lt; 4)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>intro3</sound>
+            <sound>-100</sound>
           </argument>
         </arguments>
       </action>
@@ -412,7 +412,7 @@ if(image_index &lt; 4)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>intro4</sound>
+            <sound>-1</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -492,7 +492,7 @@ if(image_index &lt; 4)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>intro4</sound>
+            <sound>-100</sound>
           </argument>
         </arguments>
       </action>
@@ -512,7 +512,7 @@ if(image_index &lt; 4)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>intro5</sound>
+            <sound>-1</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -592,7 +592,7 @@ if(image_index &lt; 4)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>intro5</sound>
+            <sound>-100</sound>
           </argument>
         </arguments>
       </action>
